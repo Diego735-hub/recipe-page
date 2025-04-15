@@ -1,0 +1,148 @@
+/* === RESET BÁSICO === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  
+  /* === CONTAINER CENTRAL === */
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 736px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.05);
+  }
+  
+  /* === IMAGEM === */
+  .recipe-img {
+    width: 100%;
+    border-radius: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* === TÍTULOS === */
+  h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 2.5rem;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 1.75rem;
+    color: hsl(14, 45%, 36%);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 1rem;
+  }
+  
+  /* === LISTAS === */
+  ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  ul li, ol li {
+    margin-bottom: 0.5rem;
+  }
+  
+  ol li::marker {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+  }
+  
+  /* === BLOCO DE TEMPO === */
+  .prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    margin: 1.5rem 0;
+  }
+  
+  .prep-time li {
+    list-style: disc;
+    margin-left: 1.5rem;
+  }
+  
+  .prep-time li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+  }
+  
+  /* === TABELA === */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+  }
+  
+  table tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+  
+  table td {
+    padding: 0.75rem 0;
+  }
+  
+  table td:first-child {
+    padding-left: 1rem;
+  }
+  
+  table td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+  }
+  
+  /* === LINK INSTAGRAM FINAL === */
+  .follow {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+  
+  .follow a {
+    color: hsl(332, 51%, 32%);
+    text-decoration: none;
+  }
+  
+  .follow a:hover {
+    text-decoration: underline;
+  }
+  
+  /* === RESPONSIVO === */
+  @media (max-width: 768px) {
+    body {
+      padding: 1rem;
+    }
+  
+    .container {
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
